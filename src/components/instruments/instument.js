@@ -11,7 +11,7 @@ import Rating from 'react-rating';
 
 const Instrument = (props) => {
     // destructuring
-    const{ name, details,img}=props.instrument;
+    const{ name,img,rating,price}=props.instrument;
     return(
         <div className="instrument">
             <div className="instrument-cards">
@@ -19,11 +19,17 @@ const Instrument = (props) => {
             <Card.Img variant="top" src={img}  />
             <Card.Body>
                 <Card.Title ><h4 style={{ fontWeight:'bold' }}>{name}</h4> </Card.Title>
-                <Card.Text>{details}</Card.Text>
+                {/* <Card.Text>{details}</Card.Text> */}
             </Card.Body>
             <ListGroup className="list-group-flush fw-bold">
-            <ListGroupItem>Rating: <Rating readonly>{}</Rating> </ListGroupItem>  
-                
+            <ListGroupItem className="">Rating: <Rating
+                                    initialRating={rating}
+                                    emptySymbol="far fa-star icon-color"
+                                    fullSymbol="fas fa-star icon-color"
+                                    />
+                                    </ListGroupItem>  
+
+            <ListGroupItem>Price: $ {price}</ListGroupItem>     
             </ListGroup>
             <Card.Body>
             <Button
