@@ -15,11 +15,11 @@ const Instrument = (props) => {
     return(
         <div className="instrument">
             <div className="instrument-cards h-100">
-            <Card  style={{ width: '18rem', }}>
+            <Card  style={{ width: '18rem'}}>
             <Card.Img variant="top" src={img}  />
             <Card.Body>
                 <Card.Title ><h4 style={{ fontWeight:'bold' }}>{name}</h4> </Card.Title>
-                {/* <Card.Text>{details}</Card.Text> */}
+                <Card.Text className="h-100" style={{ height: '18em'}}>{details}</Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush fw-bold">
             <ListGroupItem className="">Rating: <Rating
