@@ -19,7 +19,7 @@ const Instrument = (props) => {
             <Card.Img variant="top" src={img}  />
             <Card.Body>
                 <Card.Title ><h4 style={{ fontWeight:'bold' }}>{name}</h4> </Card.Title>
-                <Card.Text className="h-100" style={{ height: '18em'}}>{details}</Card.Text>
+                <Card.Text>{details}</Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush fw-bold">
             <ListGroupItem className="">Rating: <Rating
