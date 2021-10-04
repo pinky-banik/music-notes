@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Contact from '../contact/contact';
 import Instrument from "../instruments/instument";
 import "./music.css";
 const Music = () => {
@@ -17,6 +18,9 @@ const Music = () => {
                         instrument={instrument}
                     ></Instrument>  )
                 }
+            </div>
+            <div>
+                <Contact></Contact>
             </div>
         </div>
 
