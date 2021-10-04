@@ -15,6 +15,8 @@ const Instrument = (props) => {
     return(
         <div className="instrument">
             <div className="instrument-cards h-100">
+
+            {/* bootstrap card */}
             <Card  style={{ width: '18rem'}}>
             <Card.Img variant="top" src={img}  />
             <Card.Body>

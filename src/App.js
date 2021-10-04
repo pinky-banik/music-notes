@@ -11,7 +11,7 @@ import Contact from './components/contact/contact';
 function App() {
   return (
     <div className="app">
-      
+      {/* Routing */}
       <BrowserRouter>
       <Switch>
         <Route path="/home">

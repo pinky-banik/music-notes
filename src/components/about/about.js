@@ -9,13 +9,12 @@ const About = () => {
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
+                    {/* About Us div */}
                     <div class="aboutus">
                         <h2 class="aboutus-title">About Us</h2>
                         <p class="aboutus-text">It’s true that learning an instrument isn’t easy, and it can be a long road, but it’s far from impossible. Thanks to the internet, it’s easier than ever before to pick up and learn to play any instrument you want. </p>
-
-
-<p>Music Note offers courses about learning every musical instrument at a reasonable price. With these sites, you’ll have a great head start.</p>
-                        <a class="aboutus-more" href="#">read more</a>
+                        <p>Music Note offers courses about learning eve musical instrument at a reasonable price. With these sites, you’ll have a great head                         start.</p>
+                        <a class="aboutus-more" href="/service">read more</a>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">

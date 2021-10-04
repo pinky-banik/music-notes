@@ -3,10 +3,9 @@ import Instrument from '../instruments/instument';
 
 const Home = () => {
 
-            
-                  const [instruments, setinstruments] = useState([]);
-                  const myhome=instruments.slice(1,5);
-
+                const [instruments, setinstruments] = useState([]);
+                const myhome=instruments.slice(1,5);
+                // fetching data
                 useEffect(() => {
                     fetch('../../music.json')
                         .then(res => res.json())

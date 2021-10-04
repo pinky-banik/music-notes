@@ -5,7 +5,7 @@ import Instrument from "../instruments/instument";
 import "./music.css";
 const Music = () => {
     const [instruments, setinstruments] = useState([]);
-
+    // fetching data
     useEffect(() => {
         fetch('../../music.json')
             .then(res => res.json())
