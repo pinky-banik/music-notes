@@ -1,3 +1,18 @@
+#welcome to "Music Notes"
+ 
+I've build this website to show many musical courses.
+
+Here I've used route. you can see it in your url.
+
+There I've also added about and contact page.
+
+Live site link : https://review-website-pinky-banik.netlify.app
+
+
+Thank you. Have fun :D
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

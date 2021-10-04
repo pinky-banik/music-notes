@@ -26,7 +26,7 @@ const header = () => {
                         <NavDropdown.Item href="/service">Piano</NavDropdown.Item>
                         <NavDropdown.Item href="/service">violin</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">More</NavDropdown.Item>
+                        <NavDropdown.Item href="/service">More</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="/contact">Contact</Nav.Link>
                     </Nav>

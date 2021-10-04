@@ -32,7 +32,7 @@ const About = () => {
                                 </div>
                                 <div class="feature-content">
                                     <h4>Work with heart</h4>
-                                    <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                                    <p>Customer satisfaction our first priority. Maintaining a positive, empathetic, and professional attitude toward customers at all times.</p>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const About = () => {
                                 </div>
                                 <div class="feature-content">
                                     <h4>Reliable services</h4>
-                                    <p>Donec vitae sapien ut libero venenatis faucibu. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt</p>
+                                    <p>We ensure the best services to our customer. Responding promptly to customer inquiries.</p>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const About = () => {
                                 </div>
                                 <div class="feature-content">
                                     <h4>Great support</h4>
-                                    <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                                    <p>We also provide great suppot, Ensure customer satisfaction and provide professional customer support.</p>
                                 </div>
                             </div>
                         </div>
