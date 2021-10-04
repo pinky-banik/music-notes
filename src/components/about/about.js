@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             
-<div class="aboutus-section">
+<div class="aboutus-section" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">

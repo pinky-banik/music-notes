@@ -29,6 +29,7 @@ const Home = () => {
                 }, []);
                 return (
                     <div className="music-container">
+                        <h1 classNam="text-center">Welcome to Music Notes</h1>
                         <div className="instrument-container"> 
                             {
                                 myhome.map(instrument=> <Instrument  key={instrument.key}

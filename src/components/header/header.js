@@ -4,15 +4,18 @@ import { Navbar } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
+import About from '../about/about';
+import Music from '../music/music';
+import  Contact from '../contact/contact';
 import "./header.css";
 
 const header = () => {
     return (
         <div className="header">
-                <div className="navbar">
+                <div className="navbar" id="home">
                 <Navbar className ="color-nav mb-5 fixed-top"  collapseOnSelect expand="lg"  variant="dark">
                 <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="#home">Music Notes</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
