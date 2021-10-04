@@ -20,12 +20,6 @@ const Music = () => {
                     ></Instrument>  )
                 }
             </div>
-            <div>
-                <About></About>
-            </div>
-            <div>
-                <Contact></Contact>
-            </div>
         </div>
 
     );
