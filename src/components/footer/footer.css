@@ -3,11 +3,11 @@
   background-color:purple;
   padding:45px 0 20px;
   font-size:15px;
-  color:#737373;
+  color:#ccc8c8;
 }
 .site-footer hr
 {
-  border-top-color:#bbb;
+  border-top-color:rgb(245, 245, 245);
   opacity:0.5
 }
 .site-footer hr.small
@@ -24,7 +24,7 @@
 }
 .site-footer a
 {
-  color:#737373;
+  color:#ffffff;
 }
 .site-footer a:hover
 {
@@ -42,7 +42,7 @@
 }
 .footer-links a
 {
-  color:#737373
+  color:#bdb4b4
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {

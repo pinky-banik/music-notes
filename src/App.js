@@ -1,12 +1,13 @@
 import './App.css';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
-import Music from "./components/music/music";
+import Home from './components/home/home';
+import Music from './components/music/music';
 function App() {
   return (
     <div className="musicNotes">
       <Header></Header>
-      <Music></Music>
+      <Home></Home>
       <Footer></Footer>
 
     </div>

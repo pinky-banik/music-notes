@@ -12,18 +12,18 @@ const Footer = () => {
                         <div className="row">
                         <div className="col-sm-12 col-md-6">
                             <h6>About</h6>
-                            <p className="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                            <p className="text-justify">"Music Notes" courses about learning every musical instrument at a reasonable price. With these sites, you’ll have a great head start.</p>
                         </div>
 
                         <div className="col-xs-6 col-md-3">
-                            <h6>Categories</h6>
+                            <h6>Service</h6>
                             <ul className="footer-links">
-                            <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-                            <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-                            <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-                            <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-                            <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-                            <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                            <li><a href="http://scanfcode.com/category/c-language/">Auscoustic Guiter</a></li>
+                            <li><a href="http://scanfcode.com/category/front-end-development/">Electric Guiter</a></li>
+                            <li><a href="http://scanfcode.com/category/back-end-development/">Okulele</a></li>
+                            <li><a href="http://scanfcode.com/category/java-programming-language/">Drum</a></li>
+                            <li><a href="http://scanfcode.com/category/android/">Piano</a></li>
+                            <li><a href="http://scanfcode.com/category/templates/">Violin</a></li>
                             </ul>
                         </div>
                         <div className="col-xs-6 col-md-3">
@@ -31,9 +31,6 @@ const Footer = () => {
                             <ul className="footer-links">
                             <li><a href="http://scanfcode.com/about/">About Us</a></li>
                             <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-                            <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-                            <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-                            <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
                             </ul>
                         </div>
                     <div className="container">
