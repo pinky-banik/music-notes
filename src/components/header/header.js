@@ -9,7 +9,7 @@ import "./header.css";
 const header = () => {
     return (
         <div className="header">
-                <Navbar  className ="color-nav" collapseOnSelect expand="lg"  variant="dark">
+                <Navbar fixed="top" className ="color-nav"  collapseOnSelect expand="lg"  variant="dark">
                 <Container>
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
