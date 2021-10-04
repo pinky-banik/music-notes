@@ -4,9 +4,6 @@ import { Navbar } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
-import About from '../about/about';
-import Music from '../music/music';
-import  Contact from '../contact/contact';
 import "./header.css";
 
 const header = () => {
@@ -15,23 +12,23 @@ const header = () => {
                 <div className="navbar" id="home">
                 <Navbar className ="color-nav mb-5 fixed-top"  collapseOnSelect expand="lg"  variant="dark">
                 <Container>
-                <Navbar.Brand href="#home">Music Notes</Navbar.Brand>
+                <Navbar.Brand href="/home">Music Notes</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                     
                     </Nav>
                     <Nav>
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#about">About</Nav.Link>
+                    <Nav.Link href="/home">Home</Nav.Link>
+                    <Nav.Link href="/about">About</Nav.Link>
                     <NavDropdown title="Sevices" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                        <NavDropdown.Item href="/service">Guiter</NavDropdown.Item>
+                        <NavDropdown.Item href="/service">Piano</NavDropdown.Item>
+                        <NavDropdown.Item href="/service">violin</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.4">More</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
+                    <Nav.Link href="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Container>
