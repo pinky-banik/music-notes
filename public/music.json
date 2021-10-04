@@ -2,74 +2,100 @@
     "key": "1",
     "name": "Acoustic Guitar",
     "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "rating":"3.7",
+    "rating":"4.6",
     "price":"9.99",
     "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
 },
 {
     "key": "2",
-    "name": "Acoustic Guitar",
-    "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
+    "name": "Electric Guitar",
+    "details":"The first viable electric guitar was introduced by the Rickenbacker company in 1932, giving guitarists the volume necessary to compete with other instruments in a big band setting.",
+    "rating":"4.4",
+    "price":"11.53",
+    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_electric_guitar.jpg"
 },
 {
     "key": "3",
-    "name": "Acoustic Guitar",
-    "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
+    "name": "Fiddle",
+    "details":"First brought to America from the British Isles, the fiddle has always been one of the principal instruments in country music. Recorded country music began when Texas fiddler A. C. Eck Robertson recorded for Victor in New York in 1922.",
+    "rating":"4.1",
+    "price":"10.25",
+    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_fiddle.jpg"
 },
 {
     "key": "4",
-    "name": "Acoustic Guitar",
-    "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
+    "name": "Accordion",
+    "details":"A reed instrument developed in early nineteenth-century Europe, the accordion is worn like a vest and consists of right and left hand keyboards that are connected by a bellows. Notes are produced by the bellows pushing air through valves which are controlled by the keyboard.",
+    "rating":"3.8",
+    "price":"9.85",
+    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072347/instrument_accordiancmhof.jpg"
 },
 {
     "key": "5",
-    "name": "Acoustic Guitar",
-    "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
+    "name": "Banjo",
+    "details":"Banjos are plucked stringed instruments whose distinctive tones stem from the strings being supported by a bridge that rests on a tightly stretched skin membrane. Historically, American banjos are descendants of a broadly related family of lutes developed in West Africa from earlier Middle Eastern models.",
+    "rating":"4.2",
+    "price":"11.67",
+    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072347/instrument_banjo.jpg"
 },
 {
     "key": "6",
-    "name": "Acoustic Guitar",
-    "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
+    "name": "Drums",
+    "details":"The drums were not a part of the original instrument configuration used in country music. A contemporary drum or trap set usually consists of a bass or kick drum, a snare, tom-toms, cymbals and a set of sticks with which to hit the drum heads.",
+    "rating":"4.5",
+    "price":"14.25",
+    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_drum.jpg"
 },
 {
     "key": "7",
-    "name": "Acoustic Guitar",
-    "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
+    "name": "Harmonica",
+    "details":"Invented in Europe in the 1820s, the mouth harmonica has a series of chambers containing reeds that vibrate as the player inhales and exhales. Because most harmonicas are in a single key, it's not unusual to see a musician use a multiple of harps over the course of a night's performance.",
+    "rating":"4.1",
+    "price":"8.77",
+    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_harmonica.jpg"
 },
 {
     "key": "8",
-    "name": "Acoustic Guitar",
-    "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
+    "name": "Mandolin",
+    "details":"Derived from the ancient lutes of Renaissance Italy, the mandolin came into its present form as a short-necked instrument with eight paired strings in early eighteenth-century Naples, and it has endured as an important instrument in Italian popular music.",
+    "rating":"3.8",
+    "price":"9.36",
+    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072345/instrument_mandolin.jpg"
 },
 {
     "key": "9",
-    "name": "Acoustic Guitar",
-    "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
+    "name": "Piano",
+    "details":"The piano is made up of a series of levers and linkages whose strings are hammered when activated by playing the keys with the fingers. An integral part of country music from its inception, the piano hit its stride with western swing in the mid 1930s as typified by the playing of Moon Mullican.",
+    "rating":"4.7",
+    "price":"14.11",
+    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072345/instrument_piano.jpg"
 },
 {
     "key": "10",
-    "name": "Acoustic Guitar",
-    "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
+    "name": "Zither",
+    "details":"Composed of a flat sound box with strings stretched across it, the zither is played horizontally with either a plectrum or the fingertips. Originally brought to Europe from the Middle East by European traders, the zither made its way to America in the late 18th century.",
+    "rating":"4.00",
+    "price":"10.22",
+    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072345/instrument_zither.jpg"
 },
 {
     "key": "11",
-    "name": "Acoustic Guitar",
-    "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
+    "name": "Dobro",
+    "details":"A precursor to the steel guitar, the Dobro was invented by the Dopyera Brothers in the 1920s and modeled after the Hawaiian slack or resonator guitar. A twangy cousin to the slide guitar, the Dobro is played face up with a series of finger picks and a metal bar which is used to fret strings.",
+    "rating":"4.3",
+    "price":"10.52",
+    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_dobro.jpg"
 },
 {
     "key": "12",
-    "name": "Acoustic Guitar",
-    "details":"After delta blues, country music was the first style of popular music based around the guitar, and the prominent guitar lines in the recordings of Jimmie Rodgers and Carter Family helped bring the guitar forward in the early thirties to become the dominant stringed instrument of the twentieth century.",
-    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072346/instrument_guitar.jpg"
+    "name": "Autoharp",
+    "details":"A member of the zither family, the autoharp is played by strumming its strings with one hand while the other hand controls a bar which damps those strings not in the chord.",
+    "rating":"3.7",
+    "price":"11.38",
+    "img": "https://cmhof.imgix.net/content/uploads/2019/03/11072347/instrument_auto_harp.jpg"
 }
 ]
+
+
+
+

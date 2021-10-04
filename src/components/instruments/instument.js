@@ -11,11 +11,11 @@ import Rating from 'react-rating';
 
 const Instrument = (props) => {
     // destructuring
-    const{ name,img,rating,price}=props.instrument;
+    const{ name,img,rating,price,details}=props.instrument;
     return(
         <div className="instrument">
-            <div className="instrument-cards">
-            <Card style={{ width: '18rem' }}>
+            <div className="instrument-cards h-100">
+            <Card  style={{ width: '18rem', }}>
             <Card.Img variant="top" src={img}  />
             <Card.Body>
                 <Card.Title ><h4 style={{ fontWeight:'bold' }}>{name}</h4> </Card.Title>
