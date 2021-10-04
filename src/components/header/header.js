@@ -9,7 +9,8 @@ import "./header.css";
 const header = () => {
     return (
         <div className="header">
-                <Navbar fixed="top" className ="color-nav"  collapseOnSelect expand="lg"  variant="dark">
+                <div className="navbar">
+                <Navbar className ="color-nav mb-5 fixed-top"  collapseOnSelect expand="lg"  variant="dark">
                 <Container>
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -32,6 +33,7 @@ const header = () => {
                 </Container>
                 </Navbar>
             
+                </div>
         </div>
     );
 };
