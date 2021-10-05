@@ -38,7 +38,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div class="col-lg-12">
-                  <button type="submit" class="btn btn-danger-gradiant mt-3 text-white border-0 px-3 py-2"><span> SUBMIT</span></button>
+                  <button type="submit" style={{backgroundColor:'purple'}}class="btn btn-danger-gradiant mt-3 text-white border-0 px-3 py-2"><span> SUBMIT</span></button>
                 </div>
               </div>
             </form>

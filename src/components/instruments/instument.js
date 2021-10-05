@@ -34,9 +34,7 @@ const Instrument = (props) => {
             <ListGroupItem className="card-color">Price: $ {price}</ListGroupItem>     
             </ListGroup>
             <Card.Body className="card-color">
-            <Button
-            onClick={() => props.handleAddToCart(props.instrument)}
-            variant="dark" style={{backgroundColor: "purple"}}> <FontAwesomeIcon icon={faMusic} /> Learn playing {name} </Button>{' '}
+            <a href="/service"><Button variant="dark" style={{backgroundColor: "purple"}}> <FontAwesomeIcon icon={faMusic} /> Learn playing {name} </Button>{' '}</a>
             </Card.Body>
             </Card>     
             </div>

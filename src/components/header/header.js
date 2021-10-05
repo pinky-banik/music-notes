@@ -4,6 +4,7 @@ import { Navbar } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
+import logo from '../../image/music logo.png';
 import "./header.css";
 
 const header = () => {
@@ -12,7 +13,7 @@ const header = () => {
                 <div className="navbar" id="home">
                 <Navbar className ="color-nav fixed-top"  collapseOnSelect expand="lg"  variant="dark">
                 <Container>
-                <Navbar.Brand href="/home">Music Notes</Navbar.Brand>
+                <Navbar.Brand href="/home"> <img src={logo} alt="" /> Music Notes</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">

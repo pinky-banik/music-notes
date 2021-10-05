@@ -42,7 +42,7 @@ const Home = () => {
                         <Carousel.Caption>
                         <h3>Music Notes</h3>
                         <p>“Music is the language of the spirit. It opens the secret of life bringing peace, abolishing strife.”
-                         ― Kahlil Gibran</p>
+                        ― Kahlil Gibran</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -60,7 +60,7 @@ and life to everything.”
                     </Carousel.Item>
                     </Carousel>
                     </div>
-                    <h1 className="m-5 text-center">Welcome to Music Notes</h1>
+                    <h1 className="m-5 text-center fw-bolder ">Welcome to <span class="name">Music Notes</span></h1>
                     <div className="instrument-container"> 
                             {
                                 myhome.map(instrument=> <Instrument  key={instrument.key}
