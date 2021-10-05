@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import About from '../about/about';
-import Contact from '../contact/contact';
 import Instrument from "../instruments/instument";
 import "./music.css";
 const Music = () => {

@@ -10,7 +10,7 @@ const header = () => {
     return (
         <div className="header">
                 <div className="navbar" id="home">
-                <Navbar className ="color-nav mb-5 fixed-top"  collapseOnSelect expand="lg"  variant="dark">
+                <Navbar className ="color-nav fixed-top"  collapseOnSelect expand="lg"  variant="dark">
                 <Container>
                 <Navbar.Brand href="/home">Music Notes</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
