@@ -9,7 +9,7 @@ const About = () => {
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
-                    {/* About Us div */}
+                    {/* {=======* About Us div * */}
                     <div class="aboutus">
                         <h2 class="aboutus-title">About Us</h2>
                         <p class="aboutus-text">It’s true that learning an instrument isn’t easy, and it can be a long road, but it’s far from impossible. Thanks to the internet, it’s easier than ever before to pick up and learn to play any instrument you want. </p>

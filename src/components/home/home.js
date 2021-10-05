@@ -18,7 +18,7 @@ const Home = () => {
                 }, []);
         return (
                 <div className="music-container">
-
+                    {/* ========carousel===========  */}
                     <div className="carousel-container">
                     <Carousel fade>
                     <Carousel.Item>
@@ -54,13 +54,15 @@ const Home = () => {
                         <Carousel.Caption>
                         <h3>Music Notes</h3>
                         <p>Music gives a soul to the universe, wings to the mind, flight to the imagination
-and life to everything.”
-― Plato.</p>
+                        life to everything.”
+                        ― Plato.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     </Carousel>
                     </div>
+                    {/* =======welcome quote====== */}
                     <h1 className="m-5 text-center fw-bolder ">Welcome to <span class="name">Music Notes</span></h1>
+                    {/* =========mapping======= */}
                     <div className="instrument-container"> 
                             {
                                 myhome.map(instrument=> <Instrument  key={instrument.key}

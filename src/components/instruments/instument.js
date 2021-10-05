@@ -16,7 +16,7 @@ const Instrument = (props) => {
         <div className="instrument">
             <div className="instrument-cards h-100">
 
-            {/* bootstrap card */}
+            {/* insturment card */}
             <Card  style={{ width: '18rem',border:'1px solid purple'}}>
             <Card.Img variant="top" src={img}  />
             <Card.Body className="card-color">
@@ -34,6 +34,7 @@ const Instrument = (props) => {
             <ListGroupItem className="card-color">Price: $ {price}</ListGroupItem>     
             </ListGroup>
             <Card.Body className="card-color">
+                {/* ====== card button======= */}
             <a href="/service"><Button variant="dark" style={{backgroundColor: "purple"}}> <FontAwesomeIcon icon={faMusic} /> Learn playing {name} </Button>{' '}</a>
             </Card.Body>
             </Card>     
