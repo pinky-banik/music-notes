@@ -12,34 +12,31 @@ function App() {
   return (
     <div className="app">
       {/* Routing */}
+      
       <BrowserRouter>
+      <Header></Header>
       <Switch>
-        <Route path="/home">
-        <Header></Header>
+      <Route exact path ="/">
           <Home></Home>
-          <Footer></Footer>
+          </Route>
+        <Route path="/home">
+          <Home></Home>
           </Route>
         <Route path="/about">
-        <Header></Header>
           <About></About>
-          <Footer></Footer>
           </Route>
-        <Route path="/service">
-        <Header></Header>
+          <Route path="/service">
           <Music></Music>
-          <Footer></Footer>
           </Route>
           <Route path="/contact">
-        <Header></Header>
           <Contact></Contact>
-          <Footer></Footer>
           </Route>
           <Route>
-            <NotFound></NotFound>
-          </Route>
+          <NotFound></NotFound>
+          </Route> 
       </Switch>
+      <Footer></Footer>
       </BrowserRouter>
-     
     </div>
   );
 }
