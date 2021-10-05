@@ -60,7 +60,7 @@ and life to everything.”
                     </Carousel.Item>
                     </Carousel>
                     </div>
-                    <h1 classNam="text-center">Welcome to Music Notes</h1>
+                    <h1 className="m-5 text-center">Welcome to Music Notes</h1>
                     <div className="instrument-container"> 
                             {
                                 myhome.map(instrument=> <Instrument  key={instrument.key}
