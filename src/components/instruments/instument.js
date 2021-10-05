@@ -17,23 +17,23 @@ const Instrument = (props) => {
             <div className="instrument-cards h-100">
 
             {/* bootstrap card */}
-            <Card  style={{ width: '18rem'}}>
+            <Card  style={{ width: '18rem',border:'1px solid purple'}}>
             <Card.Img variant="top" src={img}  />
-            <Card.Body>
+            <Card.Body className="card-color">
                 <Card.Title ><h4 style={{ fontWeight:'bold' }}>{name}</h4> </Card.Title>
                 <Card.Text>{details}</Card.Text>
             </Card.Body>
-            <ListGroup className="list-group-flush fw-bold">
-            <ListGroupItem className="">Rating: <Rating
+            <ListGroup className="list-group-flush fw-bold card-color">
+            <ListGroupItem className="card-color">Rating: <Rating
                                     initialRating={rating}
                                     emptySymbol="far fa-star icon-color"
                                     fullSymbol="fas fa-star icon-color"
                                     />
                                     </ListGroupItem>  
 
-            <ListGroupItem>Price: $ {price}</ListGroupItem>     
+            <ListGroupItem className="card-color">Price: $ {price}</ListGroupItem>     
             </ListGroup>
-            <Card.Body>
+            <Card.Body className="card-color">
             <Button
             onClick={() => props.handleAddToCart(props.instrument)}
             variant="dark" style={{backgroundColor: "purple"}}> <FontAwesomeIcon icon={faMusic} /> Learn playing {name} </Button>{' '}
